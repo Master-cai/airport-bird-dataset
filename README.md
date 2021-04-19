@@ -59,11 +59,16 @@
     - 现在这么做有点鲁莽了，上来就把他们删掉了，以后想找回也没有简便方法了，只能重新跑
 
 4. 对比方法
-    - YOLOv3
-    - EfficientDet
-    - SNIPER
-    - HRNet：增大分辨率是提升小目标检测效果的正常思路。更多是一个backbone，还得看用什么检测头，有对应的论文，要做实验啊
     - TinyPerson dataset, ECCV TOD challenge
+    - 检测
+        - opencv动态物体检测
+        - YOLOv3
+        - EfficientDet
+        - SNIPER
+        - HRNet：增大分辨率是提升小目标检测效果的正常思路。更多是一个backbone，还得看用什么检测头，有对应的论文，要做实验啊
+    - 跟踪
+        - opencv目标跟踪器
+        - sort、deepsort
 
 ### 问题
 1. 保存图片的时候，每帧都保存，密度太大了，另外没有飞鸟的图片很多
