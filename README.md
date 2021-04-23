@@ -62,7 +62,7 @@
     - TinyPerson dataset, ECCV TOD challenge
     - 检测
         - opencv动态物体检测
-        - YOLOv3
+        - YOLOv3/4/5
         - EfficientDet
         - SNIPER
         - HRNet：增大分辨率是提升小目标检测效果的正常思路。更多是一个backbone，还得看用什么检测头，有对应的论文，要做实验啊
