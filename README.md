@@ -64,10 +64,14 @@
         - opencv动态物体检测
         - YOLOv3/4/5
         - EfficientDet
+        - HRNet：增大分辨率是提升小目标检测效果的正常思路。**更多是一个backbone**，还得看用什么检测头，有对应的论文，要做实验啊
         - SNIPER
-        - HRNet：增大分辨率是提升小目标检测效果的正常思路。更多是一个backbone，还得看用什么检测头，有对应的论文，要做实验啊
     - 跟踪：带有时间序列，与其看作检测问题，**还不如看作跟踪问题**？
         - opencv目标跟踪器
+            * MEDIANFLOW: works well when the motion is predictable and there is no occlusion; fails when large motion
+            * GOTURN: robust to viewpoint changes, lighting changes, deformations
+            * KCF: Accuracy and speed are both better than MIL and it reports tracking failure better than BOOSTING and MIL. If you are using OpenCV 3.1 and above, I recommend using this for most applications; Accuracy and speed are both better than MIL and it reports tracking failure better than BOOSTING and MIL. If you are using OpenCV 3.1 and above, I recommend using this for most applications.
+            * TLD: Works the best under occlusion over multiple frames. Also, tracks best over scale changes; Lots of false positives making it **almost unusable**
         - sort、deepsort
     - 各方法运行时间对比，不能是离线系统
 
