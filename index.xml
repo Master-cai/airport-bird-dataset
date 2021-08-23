@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>airport-bird-dataset</title>
+    <link>https://examplesite.com/</link>
+    <description>Recent content on airport-bird-dataset</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>airport-bird-dataset</title>
+      <link>https://examplesite.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/about/</guid>
+      <description>about airport-bird-dataset</description>
+    </item>
+    
+    <item>
+      <title>airport-bird-dataset</title>
+      <link>https://examplesite.com/download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/download/</guid>
+      <description>airport-bird-dataset
+ download1 download2 download3  </description>
+    </item>
+    
+  </channel>
+</rss>
